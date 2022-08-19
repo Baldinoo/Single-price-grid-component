@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  padding: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+.card-top {
+  background-color: white;
+  border-radius: 10px 10px 0 0px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 997px;
+  box-shadow: 5px -3px 47px 6px rgba(0,0,0,0.35);
+}
+.card-top h1 {
+  font-size: 40px;
+  color: hsl(179, 62%, 43%);
+}
+.text-1 {
+  color: hsl(71, 73%, 54%);
+  font-size: 30px;
+  font-weight: 700;
+}
+.text-2 {
+  font-size: 28px;
+  width: 897px;
+  color: hsl(218, 22%, 67%);
+}
+.card-low {
+  display: flex;
+  margin-bottom: 20px;
+}
+.card-left {
+  color: white;
+  background-color: hsl(179, 62%, 43%);
+  padding: 50px;
+  border-radius: 0 0 0 10px;
+  width: 100%;
+  box-shadow: 11px 11px 47px -2px rgba(0,0,0,0.35);
+}
+.card-left h1 {
+  font-weight: 700;
+}
+.valor {
+  display: flex;
+  margin: 20px 0 20px 0;
+  align-items: center;
+  color: rgba(255,255,255,0.5);
+  font-size: 20px;
+}
+#dol {
+  font-size: 60px;
+  font-weight: 700;
+  margin-right: 30px;
+  opacity: 1;
+  color: white;
+}
+.full-acess {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+.card-right {
+  color: white;
+  background-color: hsl(179, 62%, 43%, 0.8);
+  padding: 50px;
+  border-radius: 0 0 10px 0;
+  width: 100%;
+  box-shadow: 11px 11px 47px -2px rgba(0,0,0,0.35);
+}
+.card-right h1 {
+  margin-bottom: 30px;
+}
+.card-right p {
+  font-weight: 400;
+  width: 248px;
+  font-size: 23px;
+  opacity: 80%;
+}
+.botton {
+  background-color: hsl(71, 73%, 54%);
+  width: 377px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 11px 11px 47px -2px rgba(0,0,0,0.35);
+  cursor: pointer;
+}
+.botton:hover{
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1024px){ 
+    .card-top{
+        width: 594px;
+    }
+    .card-low{
+        flex-direction: column;
+       width: 100%;
+       max-width: 100%;
+}
+.card-left{
+    border-bottom-left-radius:0 ;
+}
+.card-right{
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+.text-2{
+    width: 519px;
+}
+}
+@media screen and (max-width: 634px){
+    .card-top{
+        width: 300px;
+    }
+    .card-low{
+        width: 300px;
+    }
+    .card-left{
+    border-bottom-left-radius:0 ;
+    }
+    .card-right{
+    border-bottom-left-radius: 10px;
+    
+    }
+    .card-top h1{
+      font-size: 28px,;
+    }
+    .text-1{
+      font-size: 22px;
+    }
+    .text-2{
+    width: 245px;
+    font-size: 20px;
+    }
+    .botton{
+    width: 194px;
+    }
+    .card-right h1{
+      font-size: 25px;
+    }
+    .card-right p{
+      font-size: 18px;
+    }
+    .card-left h1{
+      font-size: 26px;
+    }
+    .valor{
+      font-size: 22px;
+    }
+    #dol{
+      font-size: 40px;
+    }
+    .full-acess{
+      font-size: 20px;
+    }
+}
